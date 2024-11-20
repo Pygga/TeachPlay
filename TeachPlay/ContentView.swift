@@ -12,7 +12,7 @@ import SwiftData
 struct ContentView: View {
     // Intro Visibility Status
     @AppStorage("isFirstTime") private var isFirstTime: Bool = true
-    // Active Tab
+    // Active Tab 
     @State private var activeTab: Tab = .home
     var body: some View {
             TabView(selection: $activeTab){
