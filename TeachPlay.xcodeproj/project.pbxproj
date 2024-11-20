@@ -18,6 +18,14 @@
 		B26BF3232CDBE3F200E4A598 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BF3222CDBE3F200E4A598 /* UserModel.swift */; };
 		B26BF3252CDBE47500E4A598 /* DefaultAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BF3242CDBE47500E4A598 /* DefaultAvatar.swift */; };
 		B26BF3272CDBF2F200E4A598 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BF3262CDBF2F200E4A598 /* Rating.swift */; };
+		B2BB90C22CEE61680044F561 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90C12CEE61680044F561 /* Question.swift */; };
+		B2BB90C42CEE61AE0044F561 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90C32CEE61AE0044F561 /* GameHistory.swift */; };
+		B2BB90C62CEE621B0044F561 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90C52CEE621B0044F561 /* SoundPlayer.swift */; };
+		B2BB90CA2CEE62F90044F561 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90C92CEE62F90044F561 /* Setting.swift */; };
+		B2BB90CC2CEE63670044F561 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90CB2CEE63670044F561 /* Topic.swift */; };
+		B2BB90CE2CEE6AC70044F561 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90CD2CEE6AC70044F561 /* Record.swift */; };
+		B2BB90D02CEE6AF00044F561 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90CF2CEE6AF00044F561 /* GameResult.swift */; };
+		B2BB90D42CEE6CB80044F561 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB90D32CEE6CB80044F561 /* Sounds.swift */; };
 		B2FA474F2CD7AF0500BBB3CF /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA474E2CD7AF0500BBB3CF /* Constans.swift */; };
 		B2FA47512CD7AF7900BBB3CF /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA47502CD7AF7900BBB3CF /* View+Extensions.swift */; };
 		B2FA47542CD7AFD700BBB3CF /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA47532CD7AFD700BBB3CF /* Tab.swift */; };
@@ -40,6 +48,14 @@
 		B26BF3222CDBE3F200E4A598 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B26BF3242CDBE47500E4A598 /* DefaultAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAvatar.swift; sourceTree = "<group>"; };
 		B26BF3262CDBF2F200E4A598 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		B2BB90C12CEE61680044F561 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B2BB90C32CEE61AE0044F561 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
+		B2BB90C52CEE621B0044F561 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		B2BB90C92CEE62F90044F561 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		B2BB90CB2CEE63670044F561 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		B2BB90CD2CEE6AC70044F561 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		B2BB90CF2CEE6AF00044F561 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		B2BB90D32CEE6CB80044F561 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		B2FA474E2CD7AF0500BBB3CF /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		B2FA47502CD7AF7900BBB3CF /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		B2FA47532CD7AFD700BBB3CF /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -105,6 +121,13 @@
 				B2FA474E2CD7AF0500BBB3CF /* Constans.swift */,
 				B2FA47502CD7AF7900BBB3CF /* View+Extensions.swift */,
 				B26BF3222CDBE3F200E4A598 /* UserModel.swift */,
+				B2BB90C52CEE621B0044F561 /* SoundPlayer.swift */,
+				B2BB90C92CEE62F90044F561 /* Setting.swift */,
+				B2BB90CB2CEE63670044F561 /* Topic.swift */,
+				B2BB90C12CEE61680044F561 /* Question.swift */,
+				B2BB90C32CEE61AE0044F561 /* GameHistory.swift */,
+				B2BB90CD2CEE6AC70044F561 /* Record.swift */,
+				B2BB90CF2CEE6AF00044F561 /* GameResult.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -114,6 +137,7 @@
 			children = (
 				B2FA47532CD7AFD700BBB3CF /* Tab.swift */,
 				B2FA47552CD7B7A900BBB3CF /* TintColor.swift */,
+				B2BB90D32CEE6CB80044F561 /* Sounds.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,18 +246,26 @@
 				B2FA475E2CD7BA2100BBB3CF /* IntroScreen.swift in Sources */,
 				B2FA47562CD7B7A900BBB3CF /* TintColor.swift in Sources */,
 				B24BD0692CA5B94400D65FD1 /* ContentView.swift in Sources */,
+				B2BB90D42CEE6CB80044F561 /* Sounds.swift in Sources */,
+				B2BB90C22CEE61680044F561 /* Question.swift in Sources */,
+				B2BB90D02CEE6AF00044F561 /* GameResult.swift in Sources */,
 				B26BF3212CDBC82400E4A598 /* Profile.swift in Sources */,
 				B26BF31D2CDBB3B900E4A598 /* Home.swift in Sources */,
+				B2BB90CE2CEE6AC70044F561 /* Record.swift in Sources */,
 				B24BD06B2CA5B94400D65FD1 /* Item.swift in Sources */,
+				B2BB90C62CEE621B0044F561 /* SoundPlayer.swift in Sources */,
 				B2FA474F2CD7AF0500BBB3CF /* Constans.swift in Sources */,
 				B2FA47592CD7B93B00BBB3CF /* ThemeChangeView.swift in Sources */,
 				B26BF3232CDBE3F200E4A598 /* UserModel.swift in Sources */,
 				B2FA47542CD7AFD700BBB3CF /* Tab.swift in Sources */,
 				B2FA475C2CD7B9B400BBB3CF /* Settings.swift in Sources */,
+				B2BB90CC2CEE63670044F561 /* Topic.swift in Sources */,
 				B26BF31F2CDBB40000E4A598 /* Search.swift in Sources */,
+				B2BB90CA2CEE62F90044F561 /* Setting.swift in Sources */,
 				B26BF3272CDBF2F200E4A598 /* Rating.swift in Sources */,
 				B2FA47512CD7AF7900BBB3CF /* View+Extensions.swift in Sources */,
 				B24BD0672CA5B94400D65FD1 /* TeachPlayApp.swift in Sources */,
+				B2BB90C42CEE61AE0044F561 /* GameHistory.swift in Sources */,
 				B26BF3252CDBE47500E4A598 /* DefaultAvatar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
