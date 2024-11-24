@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct GameResult {
     var result: Int
     var totalQuestion: Int
